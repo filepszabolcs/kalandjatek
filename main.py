@@ -40,6 +40,15 @@ while i != 19 or i != 22:
         if v == 11 or v == 12 or v == 13:
             i = v
 
+    if i == 14:
+        print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz. \n"
+              "21. elküld a francba. \n"
+              "12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod. \n"
+              "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 19 or v == 21 or v == 12:
+            i = v
+
     if i == 8:
         print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire. \n"
               "17. eltűnsz a helyszínről, mintha semmi közöd se lenne a történtekhez. \n"
