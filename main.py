@@ -49,3 +49,10 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 15 or v == 16 or v == 4:
             i = v
+
+    if i == 17:
+        print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz.\n"
+              "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 19:
+            i = v
