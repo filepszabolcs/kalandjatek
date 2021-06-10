@@ -104,15 +104,6 @@ while i != 19 or i != 22:
         if v == 15 or v == 16 or v == 4:
             i = v
 
-    if i == 10:
-        print("15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt."
-              "7. szó nélkül tovább sétál, mivel eléggé parázik tőled."
-              "17. eltűnsz a helyszínről, mintha semmi közöd se lenne a történtekhez."
-              "Mit választasz? Írj be a számot: ")
-        v = int(input())
-        if v == 15 or v == 7 or v == 17:
-            i = v
-
     if i == 13:
         print("akkor...\n"
               "16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n"
@@ -136,6 +127,13 @@ while i != 19 or i != 22:
             "21. elküld a francba.\n"
             "Mit választasz? Írj be a számot:\n")
 
+        v = int(input())
+        if v == 15 or v == 20 or v == 21:
+            i = v
+
+    if i == 20:
+        print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
+              "Mit választasz? Írj be a számot:")
         v = int(input())
         if v == 22:
             i = v
