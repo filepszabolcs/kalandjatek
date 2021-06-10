@@ -20,6 +20,7 @@ while i != 19 or i != 22:
         if v == 5 or v == 6 or v == 7:
             i = v
 
+
     if i == 3:
         print(
             "8. az akciód nem jól sül el, mivel az égő csikktől meggyullad a szemét és lángra kap az egész bejárati ajtó.\n"
@@ -39,6 +40,28 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 11 or v == 12 or v == 13:
             i = v
+    if i == 5:
+        print(
+            "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed.\n"
+            "12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n"
+            "14. kihúzod magad a tanár kezei közül és röhögve elfutsz előle a folyosón.\n"
+            "Mit választasz? Írj be a számot:")
+
+    v = int(input())
+    if v == 10 or v == 12 or v == 14:
+        i = v
+
+    if i == 7:
+        print("12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod. \n"
+              "15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt. \n"
+              "16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón. \n"
+              "Mit választasz? Írd be a számot:")
+        v = int(input())
+        if v == 12 or v == 15 or v == 16:
+            i = v
+
+
+
 
     if i == 14:
         print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz. \n"
@@ -68,9 +91,26 @@ while i != 19 or i != 22:
         if v == 15 or v == 16 or v == 4:
             i = v
 
+    if i == 13:
+        print("akkor...\n"
+              "16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n"
+              "3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n"
+              "2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n"
+              "Mit választasz? Írj be egy számot:\n")
+        v = int(input())
+        if v == 16 or v == 2 or v == 3:
+            i = v
+
     if i == 17:
         print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz.\n"
               "Mit választasz? Írj be a számot:")
         v = int(input())
         if v == 19:
+            i = v
+
+    if i == 20:
+        print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
+              "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 22:
             i = v
