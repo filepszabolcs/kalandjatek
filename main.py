@@ -60,9 +60,7 @@ while i != 19 or i != 22:
         if v == 4 or v == 15 or v == 16:
             i = v
 
-    v = int(input())
-    if v == 10 or v == 12 or v == 14:
-        i = v
+
 
     if i == 7:
         print("12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod. \n"
