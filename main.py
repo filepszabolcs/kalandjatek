@@ -19,3 +19,13 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 5 or v == 6 or v == 7:
             i = v
+
+    if i == 3:
+        print(
+            "8. az akciód nem jól sül el, mivel az égő csikktől meggyullad a szemét és lángra kap az egész bejárati ajtó.\n"
+            "9. a gondnok meghunyászkodva elkezdi összeseperni a szemetet.\n"
+            "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed. \n"
+            "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 8 or v == 9 or v == 10:
+            i = v
