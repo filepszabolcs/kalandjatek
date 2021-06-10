@@ -51,7 +51,7 @@ while i != 19 or i != 22:
             "14. kihúzod magad a tanár kezei közül és röhögve elfutsz előle a folyosón.\n"
             "Mit választasz? Írj be a számot:")
         v = int(input())
-        if v == 4 or v == 15 or v == 16:
+        if v == 10 or v == 12 or v == 14:
             i = v
 
     if i == 6:
