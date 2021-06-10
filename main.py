@@ -109,7 +109,7 @@ while i != 19 or i != 22:
                 print("15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n"
                       "20. sikerül valami nyálas dumát nyomnod a kék szemeiről.\n"
                       "21. elküld a francba.\n"
-                      "Mit választasz? Írj be a számot:")
+                      "Mit választasz? Írj be a számot:\n")
 
                 v = int(input())
                 if v == 15 or v == 20 or v == 21:
