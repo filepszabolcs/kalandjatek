@@ -27,4 +27,3 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 22:
             i = v
-")
