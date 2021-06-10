@@ -20,7 +20,6 @@ while i != 19 or i != 22:
         if v == 5 or v == 6 or v == 7:
             i = v
 
-
     if i == 3:
         print(
             "8. az akciód nem jól sül el, mivel az égő csikktől meggyullad a szemét és lángra kap az egész bejárati ajtó.\n"
@@ -31,7 +30,7 @@ while i != 19 or i != 22:
         if v == 8 or v == 9 or v == 10:
             i = v
 
-        if i == 4:
+    if i == 4:
         print("11. Béci rávesz, hogy lógjátok el az egész napot. Belemész.\n"
               "12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n"
               "13. kiszúrod az éppen közeledő dögös csajt az évfolyamról és Béci megszólítja.\n"
@@ -47,9 +46,15 @@ while i != 19 or i != 22:
             "14. kihúzod magad a tanár kezei közül és röhögve elfutsz előle a folyosón.\n"
             "Mit választasz? Írj be a számot:")
 
+    if i == 8:
+        print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire. \n"
+              "17. eltűnsz a helyszínről, mintha semmi közöd se lenne a történtekhez. \n"
+              "18. elégedetten szemléled a művedet. \n"
+              "Mit választasz? Írj be a számot:")
         v = int(input())
-        if v == 10 or v == 12 or v == 14:
+        if v == 4 or v == 17 or v == 18:
             i = v
+
     if i == 9:
         print("akkor...\n"
             "15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n"
@@ -60,3 +65,9 @@ while i != 19 or i != 22:
         if v == 15 or v == 16 or v == 4:
             i = v
 
+    if i == 17:
+        print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz.\n"
+              "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 19:
+            i = v
