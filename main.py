@@ -40,6 +40,7 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 11 or v == 12 or v == 13:
             i = v
+
     if i==6:
         print ( "4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n"
                 "15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n"
