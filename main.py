@@ -39,12 +39,25 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 11 or v == 12 or v == 13:
             i = v
+
     if i == 5:
         print(
             "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed.\n"
             "12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n"
             "14. kihúzod magad a tanár kezei közül és röhögve elfutsz előle a folyosón.\n"
             "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 4 or v == 15 or v == 16:
+            i = v
+
+    if i == 6:
+        print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n"
+              "15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n"
+              "16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n"
+              "Mit választasz? Írj be a számot: ")
+        v = int(input())
+        if v == 4 or v == 15 or v == 16:
+            i = v
 
     if i == 7:
         print("12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod. \n"
