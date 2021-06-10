@@ -40,16 +40,38 @@ while i != 19 or i != 22:
         v = int(input())
         if v == 11 or v == 12 or v == 13:
             i = v
+
     if i == 5:
         print(
             "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed.\n"
             "12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n"
             "14. kihúzod magad a tanár kezei közül és röhögve elfutsz előle a folyosón.\n"
             "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 4 or v == 15 or v == 16:
+            i = v
 
-    v = int(input())
-    if v == 10 or v == 12 or v == 14:
-        i = v
+    if i == 6:
+        print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n"
+              "15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n"
+              "16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n"
+              "Mit választasz? Írj be a számot: ")
+        v = int(input())
+        if v == 4 or v == 15 or v == 16:
+            i = v
+
+
+
+    if i == 11:
+        print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz. \n"
+              "3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket. \n"
+              "2. elnyomod a csikket az igazgatónő bringájának kerekébe. \n"
+              "Mit választasz? Írj be a számot: "
+              )
+        v = int(input())
+        if v == 19 or v == 3 or v == 2:
+            i = v
+
 
     if i == 7:
         print("12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod. \n"
@@ -108,9 +130,12 @@ while i != 19 or i != 22:
         if v == 19:
             i = v
 
-    if i == 20:
-        print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
-              "Mit választasz? Írj be a számot:")
+    if i == 12:
+        print("15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n"
+            "20. sikerül valami nyálas dumát nyomnod a kék szemeiről.\n"
+            "21. elküld a francba.\n"
+            "Mit választasz? Írj be a számot:\n")
+
         v = int(input())
-        if v == 22:
+        if v == 15 or v == 20 or v == 21:
             i = v
