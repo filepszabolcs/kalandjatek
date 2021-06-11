@@ -159,13 +159,6 @@ while i != 19 or i != 22:
             print("VÉGE A SZTORINAK")
             i = v
 
-        if i == 20:
-            print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
-                  "Mit választasz? Írj be a számot:")
-            v = int(input())
-            if v == 22:
-                i = v
-
     if i == 20:
         print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
               "Mit választasz? Írj be a számot:")
