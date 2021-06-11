@@ -145,12 +145,6 @@ while i != 19 or i != 22:
         if v == 18 or v == 17 or v == 12:
             i = v
 
-        if i == 17:
-            print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz.\n"
-                  "Mit választasz? Írj be a számot:")
-            v = int(input())
-            if v == 19:
-                i = v
     if i == 17:
         print("19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz.\n"
               "Mit választasz? Írj be a számot:")
