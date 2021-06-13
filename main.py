@@ -159,6 +159,16 @@ while not (i == 19 or i == 22):
         if v == 19:
             i = v
 
+    if i == 18:
+        print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n"
+              "Mit választasz? Írj be a számot:")
+        v = int(input())
+        if v == 4:
+            i = v
+        else:
+            print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n"
+              "Mit választasz? Írj be a számot:")
+
     if i == 20:
         print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
               "Mit választasz? Írj be a számot:")
