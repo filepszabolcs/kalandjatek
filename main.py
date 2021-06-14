@@ -1,6 +1,6 @@
 i = 1
 
-while not (i != 19 and i != 22):
+while not (i == 19 and i == 22):
     if i == 1:
         print("Te vagy az iskola rosszfiúja. Késve érkezel a suli elé, még elszívod a cigidet, aztán… \n"
               "2. elnyomod a csikket az igazgatónő bringájának kerekébe. \n"
@@ -21,13 +21,13 @@ while not (i != 19 and i != 22):
         if v == 5 or v == 6 or v == 7:
             i = v
 
-
     if i == 3:
-        print(
-            "8. az akciód nem jól sül el, mivel az égő csikktől meggyullad a szemét és lángra kap az egész bejárati ajtó.\n"
-            "9. a gondnok meghunyászkodva elkezdi összeseperni a szemetet.\n"
-            "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed. \n"
-            "Mit választasz? Írj be a számot:")
+        print("8. az akciód nem jól sül el, mivel az égő csikktől meggyullad "
+              "a szemét és lángra kap az egész bejárati ajtó.\n"
+              "9. a gondnok meghunyászkodva elkezdi összeseperni a szemetet.\n"
+              "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, "
+              "akinek szemlátomást nem jön be a viselkedésed. \n"
+              "Mit választasz? Írj be a számot:")
         v = int(input())
         if v == 8 or v == 9 or v == 10:
             i = v
@@ -43,7 +43,8 @@ while not (i != 19 and i != 22):
 
     if i == 5:
         print(
-            "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed.\n"
+            "10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, "
+            "akinek szemlátomást nem jön be a viselkedésed.\n"
             "12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n"
             "14. kihúzod magad a tanár kezei közül és röhögve elfutsz előle a folyosón.\n"
             "Mit választasz? Írj be a számot:")
@@ -165,9 +166,6 @@ while not (i != 19 and i != 22):
         v = int(input())
         if v == 4:
             i = v
-        else:
-            print("4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n"
-              "Mit választasz? Írj be a számot:")
 
     if i == 20:
         print("22. a nap hátralévő részében disznó vicceken röhögtök...\n"
@@ -185,3 +183,4 @@ while not (i != 19 and i != 22):
 
     if i == 19 or i == 22:
         print("VÉGE A SZTORINAK")
+        break
